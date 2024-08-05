@@ -23,10 +23,16 @@
     "success": "#008060",
     "warning": "#ffc453",
     "error": "#d82c0d",
-    "info": "#2e72d2"
+    "info": "#008060"
   },
   "font": {
     "__resolveType": "website/loaders/fonts/googleFonts.ts",
-    "fonts": [{ "variations": [], "family": "Poiret One" }]
-  }
+    "fonts": [
+      {
+        "variations": [],
+        "family": "Poiret One"
+      }
+    ]
+  },
+  "mode": "light"
 }
