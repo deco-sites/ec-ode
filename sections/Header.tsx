@@ -53,16 +53,8 @@ export default function Haader({
     alt: "Logo",
   },
   navigation = {
-    links: [
-      { label: "Home", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Princing", url: "/" },
-      { label: "Contact", url: "/" },
-    ],
-    buttons: [
-      { id: "change-me-1", href: "/", text: "Change me", outline: false },
-      { id: "change-me-2", href: "/", text: "Change me", outline: true },
-    ],
+    links: [],
+    buttons: [],
   },
 }: Nav) {
   return (

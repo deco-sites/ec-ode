@@ -48,43 +48,16 @@ export default function Footer({
   },
   links = [
     {
-      title: "Column One",
+      title: "Colaboradores",
       items: [
-        { label: "Link One", href: "/" },
-        { label: "Link Two", href: "/" },
-        { label: "Link Three", href: "/" },
-        { label: "Link Four", href: "/" },
-        { label: "Link Five", href: "/" },
-      ],
-    },
-    {
-      title: "Column Two",
-      items: [
-        { label: "Link Six", href: "/" },
-        { label: "Link Seven", href: "/" },
-        { label: "Link Eight", href: "/" },
-        { label: "Link Nine", href: "/" },
-        { label: "Link Ten", href: "/" },
-      ],
-    },
-    {
-      title: "Column Three",
-      items: [
-        { label: "Link Eleven", href: "/" },
-        { label: "Link Twelve", href: "/" },
-        { label: "Link FourThirteenteen", href: "/" },
-        { label: "Link Fourteen", href: "/" },
-        { label: "Link Fifteen", href: "/" },
+        { label: "Beatriz Pessôa", href: "/" },
+        { label: "Clara Dantas", href: "/" },
+        { label: "Emyle Lucena", href: "/" },
+        { label: "Gustavo Lacerda", href: "/" },
       ],
     },
   ],
-  subscribe = {
-    title: "Subcribe",
-    description:
-      "Join our newsletter to stay up to date on features and releases.",
-    instructions:
-      "By subscribing you agree to with our <a href='/' target='_blank' class='link'>Privacy Policy</a> and provide consent to receive updates from our company.",
-  },
+  
   madeWith = {
     label: "Made with",
     src:
@@ -132,34 +105,7 @@ export default function Footer({
               </div>
             ))}
           </div>
-          <div class="lg:w-[40%]">
-            <h4 class="font-semibold mb-4">{subscribe?.title}</h4>
-            <form class="flex flex-col gap-4">
-              <p class="font-normal">{subscribe.description}</p>
-              <div class="flex gap-4">
-                <input
-                  type="text"
-                  placeholder="Enter your email"
-                  class="flex-auto input input-bordered input-primary"
-                />
-                <button
-                  type="submit"
-                  class="btn btn-outline font-normal"
-                  aria-label="Subscribe"
-                >
-                  Subscribe
-                </button>
-              </div>
-              {subscribe.instructions && (
-                <p
-                  class="text-xs"
-                  dangerouslySetInnerHTML={{ __html: subscribe.instructions }}
-                >
-                </p>
-              )}
-            </form>
-          </div>
-        </div>
+
         <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
           <div class="flex flex-col gap-4 items-center lg:flex-row lg:gap-6">
             <a
